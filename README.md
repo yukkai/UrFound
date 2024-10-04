@@ -3,7 +3,7 @@
 This repo is the official implementation of [UrFound](https://arxiv.org/pdf/2408.05618).
 
 <div align="center">
-    <img src="figs/urfound_p0.jpg" style="border: 1px solid black; margin: 10px; margin: 10px; width: 30%; height: auto;">
+    <img src="figs/urfound_p0.jpg" style="border: 1px solid black; margin: 10px; margin: 10px; width: 60%; height: auto;">
 </div>
 
 ## Abstract
@@ -107,3 +107,7 @@ CUDA_VISIBLE_DEVICES=0 python ./main_finetune.py \
   year={2024}
 }
 ```
+
+## Acknowledgements
+
+We extend our appreciation to the developers of the [RETFound](https://github.com/rmaphoh/RETFound_MAE), [FLAIR](https://github.com/jusiro/FLAIR) and [MRM](https://github.com/RL4M/MRM-pytorch) project for sharing their open-source implementation and providing guidance on preparing the data.
