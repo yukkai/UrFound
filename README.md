@@ -96,6 +96,8 @@ CUDA_VISIBLE_DEVICES=0 python ./main_finetune.py \
             --log_dir ${Out_folder}/ \
             --output_dir ${Out_folder}/
 ```
+## Release
+* Pretraiend model [[Checkpoints](https://huggingface.co/yyyyk/UrFound)] 
 
 ## Citation
 
