@@ -101,12 +101,15 @@ CUDA_VISIBLE_DEVICES=0 python ./main_finetune.py \
 
 ## Citation
 
-```  
-  @article{yu2024urfound,
-  title={UrFound: Towards Universal Retinal Foundation Models via Knowledge-Guided Masked Modeling},
-  author={Yu, Kai and Zhou, Yang and Bai, Yang and Da Soh, Zhi and Xu, Xinxing and Goh, Rick Siow Mong and Cheng, Ching-Yu and Liu, Yong},
-  journal={arXiv preprint arXiv:2408.05618},
-  year={2024}
+``` 
+@InProceedings{Yu_UrFound_MICCAI2024,
+        author = { Yu, Kai and Zhou, Yang and Bai, Yang and Soh, Zhi Da and Xu, Xinxing and Goh, Rick Siow Mong and Cheng, Ching-Yu and Liu, Yong},
+        title = { { UrFound: Towards Universal Retinal Foundation Models via Knowledge-Guided Masked Modeling } },
+        booktitle = {Proceedings of MICCAI},
+        year = {2024},
+        volume = {LNCS 15012},
+        month = {October},
+        page = {753 -- 762}
 }
 ```
 
